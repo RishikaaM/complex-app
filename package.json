@@ -1,0 +1,26 @@
+{
+  "name": "my-complex-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
+  },
+  "homepage": "https://RishikaaM.github.io/complex-app>",
+  "dependencies": {
+    "react": "^18.0.0",        
+    "react-dom": "^18.0.0"     
+  },
+  "devDependencies": {
+    "vite": "^5.4.9",          
+    "gh-pages": "^4.0.0"       
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}
